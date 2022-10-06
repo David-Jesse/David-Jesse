@@ -9,7 +9,6 @@ Hi, I'm David-Jesse
 * <img src="https://github-readme-stats.vercel.app/api?username=David-Jesse&show_icons=true&theme=dark"/>
 <details>
     <summary><b>🛠️ Languages & Tools</b></summary><br/>
-    Sample text
 </details>
  <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
  <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
@@ -19,5 +18,6 @@ Hi, I'm David-Jesse
 <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
 <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-                                                  
+<img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                                                         
   
