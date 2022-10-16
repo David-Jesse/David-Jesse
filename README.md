@@ -6,7 +6,6 @@ Hi, I'm David-Jesse
 * I'm currently learning C, Linux, MySQL, Git, HTML, CSS, Python and any related fullstack courses
 * I'm currently working on gaining my software engineering certificate from ALX & Holberton Software Engr Scholarship Programme
 * You can reach me djesse351@gmail.com
-* <img src="https://github-readme-stats.vercel.app/api?username=David-Jesse&show_icons=true&theme=dark"/>
 <details>
     <summary><b>🛠️ Languages & Tools</b></summary><br/>
 </details>
