@@ -2,7 +2,7 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
-- 👀 I’m interested in Backend Development using JavaScript, node/node js Frameworks.
+- 👀 I’m interested in Backend Development using JavaScript, node/node js Framework.
 - 🌱 I’m currently learning C, from a bootcamp and Javascript, majorly for backend development purposes .
 - 💞️ I’m looking to collaborate on open source project or anything tasking really ...
 - 📫 How to reach me- send an email to Djesse351@gmail.com ...
