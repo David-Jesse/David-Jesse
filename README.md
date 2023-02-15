@@ -7,8 +7,8 @@ Web developer
 I've been studying software development for almost two years. I began with Python, HTML, and CSS, but over time, I expanded my toolbox to include more technologies. I've worked on a few projects including HTML, CSS, and the Django framework, including a blog app. I am now seeking for possibilities in web development that focus on the backend.
 
 *   ✉️  You can contact me at [davidjesse606@gmail.com](mailto:davidjesse606@gmail.com)
-*   🧠  I'm learning I am currently learning Node JS
-*   🤝  I'm open to collaborating on on any interesting web applications
+*   🧠  I'm learning currently Node JS
+*   🤝  I'm open to collaborating on interesting web applications
 *   ⚡  I enjoy listening to music and watching series### Skills 
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
