@@ -24,8 +24,8 @@ You can click the Preview link to take a look at your changes.
 
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=enzujp&layout=compact"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=David-Jesse&layout=compact"/>
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Enzujp&show_icons=true&theme=tokyonight)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=David-Jesse&show_icons=true&theme=tokyonight)
                                                        
   
