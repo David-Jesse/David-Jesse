@@ -1,5 +1,9 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is David-Jesse
 ===================================================================================================================================
+<h1>React | Fullstack Web Developer</h1>
+<h3>As a web developer, my passion lies in creating dynamic and engaging websites that not only look great but also provide an exceptional user experience. With a strong background in programming languages such as HTML, CSS, JavaScript, and React, I have a deep understanding of how to develop and maintain web applications of all sizes.</h3>
+
+<h3>My experience includes designing responsive and mobile-friendly layouts, building intuitive and scalable user interfaces, and integrating third-party APIs and services</h3>
 
 *   ✉️  You can contact me at [djesse351@gmail.com](mailto:djesse351@gmail.com)
 <p align="left">
