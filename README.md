@@ -1,5 +1,5 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
-My name is David-Jesse
+<h1>My name is David-Jesse</h1>
 ===================================================================================================================================
 <h1>Frontend Developer | Connoisseur of Music</h1>
 <p>As a web developer, my passion lies in creating dynamic and engaging websites that not only look great but also provide an exceptional user experience. With a strong background in programming languages such as HTML, CSS, JavaScript, and React, I have a deep understanding of how to develop and maintain web applications of all sizes.</p>
