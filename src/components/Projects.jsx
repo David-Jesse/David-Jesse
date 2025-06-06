@@ -5,6 +5,8 @@ import eCommerce from '@/app/assets/eCommerce.png'
 import moviefinder from '@/app/assets/moviefinder.png'
 import ps4ui from '@/app/assets/ps4ui.png'
 import raft from '@/app/assets/raft.png'
+import daya from '@/app/assets/daya.png';
+import precre8 from '@/app/assets/precre8.png';
 import { motion } from 'framer-motion'
 
 
@@ -44,6 +46,24 @@ const projectData = [
         technologies: ["Nextjs", "React", "Tailwind", "TypeScript"],
         live: "https://raft-finance.netlify.app/",
         github: "https://github.com/David-Jesse/raft"
+    },
+    {
+        id: 5,
+        title: "Daya",
+        description: "A website developed for a startup where one can earn, trade and grow their business",
+        image: daya,
+        technologies: ['HTML', 'SCSS', 'JavaScript'],
+        live: 'https://daya.africa/',
+        github: 'https://github.com/David-Jesse/daya-frontend'
+    },
+    {
+        id: 6,
+        title: 'Precre8',
+        description: "A business portfolio website for a Client that shows that various branches",
+        image: precre8,
+        technologies: ['HTML', 'SCSS', 'JavaScript'],
+        live: 'https://precre8.com/',
+        github: 'https://github.com/David-Jesse/precre8'
     }
 ]
 
@@ -214,9 +234,9 @@ const Projects = () => {
                         {!showAll && filteredProjects.length > 3 && (
                             <div className='text-center'>
                                 <motion.button
-                                    initial={{opacity: 0}}
-                                    whileInView={{opacity: 1}}
-                                    transition={{delay: 1.1, duration: 0.5}}
+                                    initial={{ opacity: 0 }}
+                                    whileInView={{ opacity: 1 }}
+                                    transition={{ delay: 1.1, duration: 0.5 }}
                                     onClick={handleSeeAll}
                                     className='inline-flex items-center cursor-pointer gap-2 px-8 py-4 bg-black hover:text-gray-100 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300'
                                 >
