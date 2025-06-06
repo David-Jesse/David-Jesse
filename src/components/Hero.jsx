@@ -83,9 +83,6 @@ const Hero = () => {
                             Welcome to DJ's corner of the web, where the art of functional frontend development takes center stage. 
                             Explore a world of digital solutions designed for seamless user experiences. 
                             Let's dive into the world of practical and user-friendly web applications
-                        {/* WELCOME TO DJ's CORNER OF THE WEB, WHERE THE ART OF FUNCTIONAL FRONTEND
-                        DEVELOPMENT TAKES CENTER STAGE. EXPLORE A WORLD OF DIGITAL SOLUTIONS DESIGNED FOR
-                        SEAMLESS USER EXPERIENCES. LET'S DIVE INTO THE WORLD OF PRACTICAL AND USER-FRIENDLY WEB APPLICATIONS */}
                     </motion.h3>
                 </div>
 
