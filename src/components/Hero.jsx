@@ -103,7 +103,7 @@ const Hero = () => {
                         initial={{ y: 30, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.7}}
-                        href="/david-jesse-resume.pdf" download="David-Jesse-Resume" target="_blank" rel="noopener noreferrer" 
+                        href="/dj.pdf" download="David-Jesse-Resume" target="_blank" rel="noopener noreferrer" 
                         className='w-[50%] sm:w-auto px-8 py-3 sm:px-10 sm:py-4 border rounded-full border-gray-500 duration-300 flex items-center justify-center sm:text-base focus:outline-none focus:ring-offset-2 focus:ring-gray-400 gap-2 hover:bg-gray-50'>My Resume <Image src={assets.download_icon} alt='right arrow' className='w-4' />
                     </motion.a>
                 </div>
