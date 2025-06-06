@@ -74,15 +74,18 @@ const Hero = () => {
                     </span>
                 </h1>
 
-                <div className='mb-8 sm:mb-12 pt-10'>
+                <div className='mb-8 sm:mb-10 pt-10'>
                     <motion.h3
                         initial={{ y: -30, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, delay: 0.5 }}
                         className='text-xl sm:text-base md:text-lg lg:text-xl leading-relaxed font-medium max-w-4xl mb-3'>
-                        WELCOME TO DJ's CORNER OF THE WEB, WHERE THE ART OF FUNCTIONAL FRONTEND
+                            Welcome to DJ's corner of the web, where the art of functional frontend development takes center stage. 
+                            Explore a world of digital solutions designed for seamless user experiences. 
+                            Let's dive into the world of practical and user-friendly web applications
+                        {/* WELCOME TO DJ's CORNER OF THE WEB, WHERE THE ART OF FUNCTIONAL FRONTEND
                         DEVELOPMENT TAKES CENTER STAGE. EXPLORE A WORLD OF DIGITAL SOLUTIONS DESIGNED FOR
-                        SEAMLESS USER EXPERIENCES. LET'S DIVE INTO THE WORLD OF PRACTICAL AND USER-FRIENDLY WEB APPLICATIONS
+                        SEAMLESS USER EXPERIENCES. LET'S DIVE INTO THE WORLD OF PRACTICAL AND USER-FRIENDLY WEB APPLICATIONS */}
                     </motion.h3>
                 </div>
 
