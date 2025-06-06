@@ -67,7 +67,7 @@ const Hero = () => {
     return (
         <section id='hero' className='min-h-screen flex items-center justify-center px-4'>
             <div className='text-center max-w-4xl mx-auto'>
-                <h1 className='text-3xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 sm:mb-6 md:mb-8 lg:mb-12'>
+                <h1 className='text-4xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 sm:mb-6 md:mb-8 lg:mb-12'>
                     <span className='inline-block min-h-[1.2em'>
                         {displayText}
                         <span className='animate-pulse text-black ml-1'>|</span>
@@ -79,7 +79,7 @@ const Hero = () => {
                         initial={{ y: -30, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, delay: 0.5 }}
-                        className='text-2xl sm:text-base md:text-lg lg:text-xl leading-relaxed font-medium max-w-4xl mb-3'>
+                        className='text-xl sm:text-base md:text-lg lg:text-xl leading-relaxed font-medium max-w-4xl mb-3'>
                         WELCOME TO DJ's CORNER OF THE WEB, WHERE THE ART OF FUNCTIONAL FRONTEND
                         DEVELOPMENT TAKES CENTER STAGE. EXPLORE A WORLD OF DIGITAL SOLUTIONS DESIGNED FOR
                         SEAMLESS USER EXPERIENCES. LET'S DIVE INTO THE WORLD OF PRACTICAL AND USER-FRIENDLY WEB APPLICATIONS
