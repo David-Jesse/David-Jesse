@@ -88,7 +88,7 @@ const Hero = () => {
 
                 <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mt-4'>
                     <motion.button
-                        initial={{ y: 30, opaicty: 0 }}
+                        initial={{ y: 30, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.7 }}
                         href="#projects" className='cursor-pointer w-[50%] sm:w-auto px-8 py-3 sm:px-10 sm:py-4 border-transparent border rounded-full bg-black text-white hover:bg-gray-800 transition-all duration-300 font-medium text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-offset-2 flex items-center gap-2' onClick={() => smoothScrollTo('projects')}>
@@ -96,10 +96,10 @@ const Hero = () => {
                     </motion.button>
 
                     <motion.a
-                        initial={{ y: 30, opaicty: 0 }}
+                        initial={{ y: 30, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.7}}
-                        href="/assets/david-jesse.pdf" download target="_blank" rel="noopener noreferrer" className='w-[44%] sm:w-auto px-8 py-3 sm:px-10 sm:py-4 border rounded-full border-gray-500 duration-300 flex items-center sm:text-base focus:outline-none focus:ring-offset-2 focus:ring-gray-400 gap-2 hover:bg-gray-50'>My Resume <Image src={assets.download_icon} alt='right arrow' className='w-4' />
+                        href="/david-jesse-resume.pdf" download="David-Jesse-Resume" target="_blank" rel="noopener noreferrer" className='w-[44%] sm:w-auto px-8 py-3 sm:px-10 sm:py-4 border rounded-full border-gray-500 duration-300 flex items-center sm:text-base focus:outline-none focus:ring-offset-2 focus:ring-gray-400 gap-2 hover:bg-gray-50'>My Resume <Image src={assets.download_icon} alt='right arrow' className='w-4' />
                     </motion.a>
                 </div>
             </div>

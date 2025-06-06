@@ -8,6 +8,8 @@ function Nav() {
   const [scrollDown, setScrollDown] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+  const [navVisible, setNavVisible] = useState(true)
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -37,8 +39,32 @@ function Nav() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const isScrolledDown = scrollTop > 50; // Trigger after 50px scroll
-      setScrollDown(isScrolledDown);
+      const heroSection = document.getElementById('hero')
+      const heroHeight = heroSection ? heroSection.offsetHeight : window.innerHeight;
+
+      // Scroll States 
+      const isAtTop = scrollTop < 50;
+      const isInHero = scrollTop < heroHeight - 100;
+      const isScrollingDown = scrollTop > lastScrollY;
+
+      // Set scroll styling 
+      setScrollDown(scrollTop > 50 && isInHero);
+
+      // Set navigation visibility
+      if (isAtTop) {
+        setNavVisible(true);
+      } else if (isInHero) {
+        setNavVisible(true)
+      } else {
+        if (isScrollingDown) {
+          setNavVisible(false);
+        } else {
+          setNavVisible(true);
+        }
+      }
+
+      // Update last scroll position
+      setLastScrollY(scrollTop);
 
       const sections = ['home', 'projects', 'contact'];
       const navHeight = 80;
@@ -68,22 +94,36 @@ function Nav() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     }
-  }, []);
+  }, [lastScrollY]);
+
+  // Determine Nav classes based on state
+  const getNavClasses = () => {
+    let baseClasses = 'fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out'
+
+    if (!navVisible) {
+      baseClasses += ' -translate-y-full opacity-0'
+    }
+
+    if (scrollDown) {
+      baseClasses += " left-1/2 transform -translate-x-1/2 bg-white/80 shadow-2xl backdrop-blur-md border border-gray-200/50 rounded-full mt-4 w-[90%] max-w-6xl"
+    } else {
+      baseClasses += " left-0 right-0 bg-white w-full"
+    }
+
+    return baseClasses;
+  }
 
   return (
     <>
-    <div className='fixed top-0 right-0 left-0 w-11/12 -z-10 translate-y-[-8%]'>
-      <Image 
+      <div className='fixed top-0 right-0 left-0 w-11/12 -z-10 translate-y-[-8%]'>
+        <Image
           src={assets.header_bg_color}
           alt='background-color'
           className='w-full'
-      />
-    </div>
+        />
+      </div>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${scrollDown
-            ? 'left-1/2 transform -translate-x-1/2 bg-white/80 shadow-2xl backdrop-blur-md border border-gray-200/50 rounded-full mt-4 w-[90%] max-w-6xl'
-            : 'left-0 right-0 bg-white w-full'
-          }`}
+        className={getNavClasses()}
         style={{ boxShadow: scrollDown ? "20px 20px 40px -6px rgba(0,0,0,0.1)" : "" }}
       >
         <div className='w-full mx-auto px-4 py-2 sm:px-6 lg:px-8'>
