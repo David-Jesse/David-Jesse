@@ -149,7 +149,7 @@ const Projects = () => {
                 </div>
 
                 {/* Filter section */}
-                <div className='flex flex-col sm:flex-row justify-between items-center mb-12 gap-4'>
+                <div className='flex md:flex md:flex-col justify-between items-center mb-12 gap-4'>
                     <div className='flex items-center gap-2 text-gray-700 dark:text-black'>
                         <Filter className='w-5 h-5' />
                         <span className='font-medium'>Filter Projects:</span>
