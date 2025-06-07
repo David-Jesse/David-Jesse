@@ -143,7 +143,7 @@ function Nav() {
             </button>
 
             {/* Desktop Navigation */}
-            <nav className='hidden md:flex space-x-8'>
+            <nav className='hidden cursor-pointer md:flex space-x-8'>
               <NavLink targetId='home' isActive={activeSection === 'home'} href='/' text='HOME' onClick={() => smoothScrollTo('home')} />
               <NavLink targetId='projects' isActive={activeSection === 'projects'} href='/projects' text='PROJECTS' onClick={() => smoothScrollTo('projects')} />
               <NavLink targetId='contact' isActive={activeSection === 'contact'} href='/contact' text='CONTACT ME' onClick={() => smoothScrollTo('contact')} />
@@ -164,7 +164,7 @@ function Nav() {
               }`}
             style={{ width: '200px' }}
           >
-            <nav className='py-2 space-y-2'>
+            <nav className='py-2 space-y-2 cursor-pointer'>
               <MobileNavLink targetId='home' isActive={activeSection === 'home'} href='/' text='Home' onClick={() => smoothScrollTo('home')} />
               <MobileNavLink targetId='projects' isActive={activeSection === 'projects'} href='/projects' text='Projects' onClick={() => smoothScrollTo('projects')} />
               <MobileNavLink targetId='contact' isActive={activeSection === 'contact'} href='/contact' text='Contact Me' onClick={() => smoothScrollTo('contact')} />
