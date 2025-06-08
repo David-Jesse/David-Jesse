@@ -59,7 +59,7 @@ const projectData = [
     {
         id: 6,
         title: 'Precre8',
-        description: "A business portfolio website for a Client that shows that various branches",
+        description: "A business portfolio website for a Client that shows the various business services they offer",
         image: precre8,
         technologies: ['HTML', 'SCSS', 'JavaScript'],
         live: 'https://precre8.com/',
