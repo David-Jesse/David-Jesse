@@ -7,6 +7,7 @@ import ps4ui from '@/app/assets/ps4ui.png'
 import raft from '@/app/assets/raft.png'
 import daya from '@/app/assets/daya.png';
 import precre8 from '@/app/assets/precre8.png';
+import dashboard from '@/app/assets/dashboard.png';
 import { motion } from 'framer-motion'
 
 
@@ -64,6 +65,15 @@ const projectData = [
         technologies: ['HTML', 'SCSS', 'JavaScript'],
         live: 'https://precre8.com/',
         github: 'https://github.com/David-Jesse/precre8'
+    }
+    {
+        id: 7,
+        title: 'DashBoard',
+        description: ' A simple responsive dashboard that shows different statistics',
+        image: dashboard,
+        technologies: ['React', 'Tailwind', 'shadcn', 'Nextjs, tanstack'],
+        live: 'https://project-dashboard-ochre.vercel.app/',
+        github: 'https://github.com/David-Jesse/Dashboard'
     }
 ]
 
