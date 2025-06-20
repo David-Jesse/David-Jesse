@@ -65,7 +65,7 @@ const projectData = [
         technologies: ['HTML', 'SCSS', 'JavaScript'],
         live: 'https://precre8.com/',
         github: 'https://github.com/David-Jesse/precre8'
-    }
+    },
     {
         id: 7,
         title: 'DashBoard',
