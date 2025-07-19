@@ -8,6 +8,8 @@ import raft from '@/app/assets/raft.png'
 import daya from '@/app/assets/daya.png';
 import precre8 from '@/app/assets/precre8.png';
 import dashboard from '@/app/assets/dashboard.png';
+import onboardflow from '@/app/assets/onboardflow.png';
+import landingpage from '@/app/assets/landingpage.png';
 import { motion } from 'framer-motion'
 
 
@@ -74,6 +76,24 @@ const projectData = [
         technologies: ['React', 'Tailwind', 'shadcn', 'Nextjs, tanstack'],
         live: 'https://project-dashboard-ochre.vercel.app/',
         github: 'https://github.com/David-Jesse/Dashboard'
+    },
+    {
+        id: 8,
+        title: "Onboarding User Flow",
+        description: 'A modern animated onboarding experience built with React and TypeScript.',
+        image: onboardflow,
+        technologies: ['React', 'CSS', 'TypeScript', 'Framer Motion'],
+        live: 'https://onboarding-flow-eosin.vercel.app/',
+        github: 'https://github.com/David-Jesse/onboarding-flow'
+    },
+    {
+        id: 9,
+        title: 'Creative landing page for a Varxell',
+        description: 'An animated showcase page with polished mirco interactions and smooth motion design',
+        image: landingpage,
+        technologies: ['React', 'CSS', 'TypeScript', 'Framer Motion'],
+        live: 'https://varxell-creative.netlify.app/',
+        github: 'https://github.com/David-Jesse/Varxxel-team-creative-design'
     }
 ]
 
